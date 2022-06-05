@@ -1,7 +1,7 @@
 /* 
 /////////////////////////////////////////////////////////////////////
 //
-// Function name : Print 1 to 100 without usig Number
+// Function name : Print 1 to 100 without using Number
 // Output        : 1 2 3 4 5 .......100        
 // Description   : Here we can't use number to print numbers so
 //                 Hint : we can use char  
@@ -22,6 +22,8 @@ class Number
 {
     int one = 'a'/'a';
     int ten = "**********".length();
+    
+    // 2nd approch : we can use 'd' as ASCII for 'd' is 100 
 
     public int PrntNum()
     {
